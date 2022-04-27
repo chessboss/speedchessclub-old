@@ -5,9 +5,12 @@ module.exports = {
   },
   plugins: [{
     resolve: 'gatsby-source-wordpress',
-    options: {
-      "url": "https://speedchessclub.flywheelsites.com/graphql"
-    },
-    resolve: 'gatsby-plugin-netlify',
-  }]
+  options: {
+    "url": "https://speedchessclub.flywheelsites.com/graphql"
+  }
+},
+  "gatsby-plugin-image",
+  "gatsby-plugin-sharp",
+  "gatsby-plugin-netlify",
+],
 };
